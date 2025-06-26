@@ -44,6 +44,6 @@ services:
 volumes:
    db-data:
 secrets:
-   db-password:
+   db-password: 
      file: db/password.txt
 
